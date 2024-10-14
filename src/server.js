@@ -2,8 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bcrypt = require('bcrypt'); // Add bcrypt
-const User = require('./models/User');
-const Complaint = require('./models/Complaint');
+const User = require('./Models/User');
+const Complaint = require('./Models/Complaint');
 
 // MongoDB connection string (replace <password> with your actual password)
 const mongoUrl = "mongodb+srv://electic:WrA3OaoKIne8ZS2a@cluster0.1otlv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
